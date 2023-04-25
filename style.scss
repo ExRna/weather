@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  position: relative;
+  h1 {
+    top: 100px;
+    position: absolute;
+  }
+  .select {
+    position: absolute;
+    top: 180px;
+    width: 150px;
+  }
+  .weather {
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    .show {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    i {
+      font-size: 120px;
+      position: absolute;
+      right: 80px;
+      bottom: 50px;
+    }
+  }
+}
